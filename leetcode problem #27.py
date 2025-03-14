@@ -8,7 +8,7 @@ def remove_element(nums):
         if nums[n] != 2:
             nums[k] = nums[n]
             k += 1
-        return n 
+        return k
 
 
 print(remove_element(nums))
