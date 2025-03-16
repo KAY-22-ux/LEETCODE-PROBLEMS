@@ -18,5 +18,6 @@ class Solution(object):
             if nums[n-1] < target < nums[n]:
                 return n
 
-        return len(nums)    
+        return len(nums)
+        
                 
