@@ -1,4 +1,6 @@
 # leetcode problem 35 - search insert position
+
+
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -19,5 +21,4 @@ class Solution(object):
                 return n
 
         return len(nums)
-        
-            
+          
