@@ -1,18 +1,18 @@
 # leetcode problem 27 - remove element 
 
-nums = [0, 1, 2, 2, 3, 0, 4, 2]
+class Solution(object):
+    def removeElement(self, nums, val):
+        k = 0
+        for  n in range(len(nums)):
+            if nums[n] != val:
+                nums[k] = nums[n]
+                k += 1
+        return k 
+    
 
-def remove_element(nums):
-    k = 0
-    for  n in range(len(nums)):
-        if nums[n] != 2:
-            nums[k] = nums[n]
-            k += 1
-        return k
 
 
-print(remove_element(nums))
-
+        
 
 
 
