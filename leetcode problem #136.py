@@ -10,4 +10,4 @@ class Solution(object):
             if nums.count(nums[i]) <= 1 :
                 var = nums[i]
                 return var 
-                   
+                    
