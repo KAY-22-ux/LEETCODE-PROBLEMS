@@ -12,4 +12,4 @@ class Solution(object):
         return var 
                                                       
 
- 
+  
