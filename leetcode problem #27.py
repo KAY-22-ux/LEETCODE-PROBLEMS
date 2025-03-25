@@ -10,4 +10,4 @@ class Solution(object):
                 nums[k] = nums[n]
                 k += 1
         return k 
-  
+   
