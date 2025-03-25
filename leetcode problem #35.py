@@ -16,7 +16,7 @@ class Solution(object):
         if target < nums[0]:
             return 0 
         
-        for n in range(1 , len(nums)):
+        for n in range(1 , len(nums)): 
             if nums[n-1] < target < nums[n]:
                 return n
 
