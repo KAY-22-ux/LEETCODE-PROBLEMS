@@ -21,4 +21,4 @@ class Solution(object):
                 return n
 
         return len(nums)
-            
+             
