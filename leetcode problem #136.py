@@ -10,6 +10,6 @@ class Solution(object):
         for i in nums:   
             var ^= i   
         return var 
-                                                      
+                                                       
 
              
