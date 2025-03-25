@@ -19,4 +19,4 @@ class Solution(object):
         for i in range(len(var)):
             digits.append(int(var[i]))
         return digits
-   
+    
