@@ -11,4 +11,4 @@ class Solution(object):
         for num in count:
             if count[num] > len(nums)/2:
                 return num 
-                     
+                      
